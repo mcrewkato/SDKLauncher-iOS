@@ -86,8 +86,11 @@
 		34E12BAA180301A2004DCB68 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E12B9D180301A2004DCB68 /* Icon-76.png */; };
 		34E12BAB180301A2004DCB68 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E12B9E180301A2004DCB68 /* Icon-76@2x.png */; };
 		85DE51A117FDDCAC00F55130 /* page-blanche-20130322.epub in Resources */ = {isa = PBXBuildFile; fileRef = 85DE51A017FDDCAC00F55130 /* page-blanche-20130322.epub */; };
+		A250D502AD93AD0C9D1784C9 /* EPUB3-Sliderizer_mo_cfi.epub in Resources */ = {isa = PBXBuildFile; fileRef = A250DA5E5878E4455673EE36 /* EPUB3-Sliderizer_mo_cfi.epub */; };
 		A250D5FFC597F4E5EB74D3AC /* epub30-test-0120-20131022.epub in Resources */ = {isa = PBXBuildFile; fileRef = A250D58D34D67FC218608A1F /* epub30-test-0120-20131022.epub */; };
+		A250D61A28E7EAFF9688DC8A /* epub30-test-0160-20140210.epub in Resources */ = {isa = PBXBuildFile; fileRef = A250DA8BB751A45847793E9B /* epub30-test-0160-20140210.epub */; };
 		A250D8E19073D0C5B921BA5F /* epub30-test-0220-20131022.epub in Resources */ = {isa = PBXBuildFile; fileRef = A250D54A5C423A86C6099037 /* epub30-test-0220-20131022.epub */; };
+		A250DB3716080F4823961DE0 /* mongoose.c in Sources */ = {isa = PBXBuildFile; fileRef = A250DCFD95F397CCC746D21D /* mongoose.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -248,6 +251,10 @@
 		85DE51A017FDDCAC00F55130 /* page-blanche-20130322.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "page-blanche-20130322.epub"; sourceTree = "<group>"; };
 		A250D54A5C423A86C6099037 /* epub30-test-0220-20131022.epub */ = {isa = PBXFileReference; lastKnownFileType = file.epub; path = "epub30-test-0220-20131022.epub"; sourceTree = "<group>"; };
 		A250D58D34D67FC218608A1F /* epub30-test-0120-20131022.epub */ = {isa = PBXFileReference; lastKnownFileType = file.epub; path = "epub30-test-0120-20131022.epub"; sourceTree = "<group>"; };
+		A250D930CA711375BB6E5308 /* mongoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mongoose.h; path = mongoose/mongoose.h; sourceTree = "<group>"; };
+		A250DA5E5878E4455673EE36 /* EPUB3-Sliderizer_mo_cfi.epub */ = {isa = PBXFileReference; lastKnownFileType = file.epub; path = "EPUB3-Sliderizer_mo_cfi.epub"; sourceTree = "<group>"; };
+		A250DA8BB751A45847793E9B /* epub30-test-0160-20140210.epub */ = {isa = PBXFileReference; lastKnownFileType = file.epub; path = "epub30-test-0160-20140210.epub"; sourceTree = "<group>"; };
+		A250DCFD95F397CCC746D21D /* mongoose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mongoose.c; path = mongoose/mongoose.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -289,6 +296,8 @@
 				340535BA16BC793700D4A802 /* wasteland-20120118.epub */,
 				A250D58D34D67FC218608A1F /* epub30-test-0120-20131022.epub */,
 				A250D54A5C423A86C6099037 /* epub30-test-0220-20131022.epub */,
+				A250DA5E5878E4455673EE36 /* EPUB3-Sliderizer_mo_cfi.epub */,
+				A250DA8BB751A45847793E9B /* epub30-test-0160-20140210.epub */,
 			);
 			name = EPub;
 			sourceTree = "<group>";
@@ -302,6 +311,8 @@
 				3462FBBF16BC3C8F003C79E1 /* Resources */,
 				3462FBC916BC3CBA003C79E1 /* Supporting Files */,
 				347C58B216BC873700A647B0 /* ePub3.xcodeproj */,
+				A250DCFD95F397CCC746D21D /* mongoose.c */,
+				A250D930CA711375BB6E5308 /* mongoose.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -646,6 +657,8 @@
 				34E12BA1180301A2004DCB68 /* Icon-40.png in Resources */,
 				A250D5FFC597F4E5EB74D3AC /* epub30-test-0120-20131022.epub in Resources */,
 				A250D8E19073D0C5B921BA5F /* epub30-test-0220-20131022.epub in Resources */,
+				A250D502AD93AD0C9D1784C9 /* EPUB3-Sliderizer_mo_cfi.epub in Resources */,
+				A250D61A28E7EAFF9688DC8A /* epub30-test-0160-20140210.epub in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -697,6 +710,7 @@
 				34B56B4F1722E54A00A5A4B8 /* Settings.m in Sources */,
 				341652A816C2F9E700AFDB8B /* SpineItemListController.m in Sources */,
 				34B1439A18581DC600602635 /* AQHTTPRequestOperation.m in Sources */,
+				A250DB3716080F4823961DE0 /* mongoose.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

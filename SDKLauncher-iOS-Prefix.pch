@@ -19,7 +19,10 @@
 	#define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
 	#define SCREEN_SIZE ([UIScreen mainScreen].bounds.size)
 
-	// -----------------------------------------
+
+#define USE_MONGOOSE_HTTP_SERVER
+
+// -----------------------------------------
 	// SimpleHTTPServer requires the following
 
 #define DEBUGLOG false

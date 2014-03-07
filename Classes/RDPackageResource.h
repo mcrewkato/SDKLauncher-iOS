@@ -31,7 +31,7 @@
 
 //- (NSData *)createNextChunkByReading;
 
-//- (NSData *)readAllDataChunks;
+- (NSData *)readAllDataChunks;
 
 - (NSData *)createChunkByReadingRange:(NSRange)range package:(RDPackage *)package;
 
